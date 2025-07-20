@@ -106,6 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # Add JBang to environment
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$PATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 eval "$(zoxide init zsh)"
 
