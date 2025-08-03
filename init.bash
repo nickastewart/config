@@ -11,6 +11,7 @@ brew install tmux
 brew install zoxide
 brew install eza
 brew install yazi
+brew install glow
 
 brew install fastfetch
 mkdir ~/.config/fastfetch
